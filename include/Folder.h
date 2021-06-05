@@ -2,7 +2,8 @@
 #define Folder_H
    #include "../src/Folder.cpp"
 
-   void add(IListable* component){};
-   void remove(IListable* component){};
+   void list(int depth);
+   void add(IListable* component);
+   void remove(IListable* component);
    
 #endif 
